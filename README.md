@@ -7,7 +7,7 @@ I'm currently looking for an internship for Summer ☀ 2021. Feel free to reach 
 - 🌱 I’m currently learning [JavaScript](https://js.org/)
 
 ### 📫 Contact Me
-- Twitter - [@Myatviz](https://twitter.com/KasperZutterman)
+- Twitter - [@Myatviz](https://twitter.com/Myatviz)
 - LinkedIn - [kommyat](https://www.linkedin.com/in/kommyat/)
 - Email - [myatkrub@gmail.com](mailto:myatkrub@gmail.com)
 
