@@ -1,10 +1,10 @@
 ### Hi! My name is Min Myat Oo, thanks for stopping by 👋
-I'm an upcoming senior at [Myeik University](https://myeikuni.edu.mm) based in Myanmar. I am currently pursuing the Information Engineering Technology master's degree.
+I'm an upcoming senior at [Myeik University](http://www.myeikuniversity.edu.mm/?lang=en) based in Myanmar. I am currently pursuing the Information Engineering Technology master's degree.
 I'm currently looking for an internship for Summer ☀ 2021. Feel free to reach out on [LinkedIn](https://www.linkedin.com/in/kommyat/) or via [e-mail](mailto:myatkrub@gmail.com).
 
 ### Trivia
-- 🔭 I’m currently working on the [Oracle NetSuite Projects](https://github.com/Suite)
-- 🌱 I’m currently learning [JavaScript](https://js.org/)
+- 🔭 I’m currently working on the [Oracle NetSuite Projects](https://www.netsuite.com/)
+- 🌱 I’m currently learning [JavaScript](https://js.org/) and 🕸 Deep Learning.
 
 ### 📫 Contact Me
 - Twitter - [@Myatviz](https://twitter.com/Myatviz)
