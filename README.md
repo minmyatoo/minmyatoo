@@ -13,6 +13,7 @@ I'm currently looking for an internship for Summer ☀ 2021. Feel free to reach 
 
 [![Contribution Stats](https://github-contribution-stats.vercel.app/api/?username=minmyatoo)](https://github.com/minmyatoo)
 
+![](https://komarev.com/ghpvc/?username=minmyatoo&color=dc143c)
 <!--
 **minmyatoo/minmyatoo** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
