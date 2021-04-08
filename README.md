@@ -7,13 +7,10 @@ I'm currently looking for an internship for Summer ☀ 2021. Feel free to reach 
 - 🌱 I’m currently learning [JavaScript](https://js.org/) and 🕸 Deep Learning.
 
 ### 📫 Contact Me
-- Twitter - [@Myatviz](https://twitter.com/Myatviz)
+- Twitter - [@myatviz](https://twitter.com/Myatviz)
 - LinkedIn - [kommyat](https://www.linkedin.com/in/kommyat/)
 - Email - [myatkrub@gmail.com](mailto:myatkrub@gmail.com)
 
-[![Contribution Stats](https://github-contribution-stats.vercel.app/api/?username=minmyatoo)](https://github.com/minmyatoo)
-
-![](https://komarev.com/ghpvc/?username=minmyatoo&color=dc143c)
 <!--
 **minmyatoo/minmyatoo** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
