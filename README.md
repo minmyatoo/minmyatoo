@@ -5,7 +5,6 @@
 - 🌱 I’m currently learning [JavaScript](https://js.org/) and 🕸 Deep Learning.
 
 ### 📫 Contact Me
-- LinkedIn - [kommyat](https://www.linkedin.com/in/kommyat/)
 - Email - [myatkrub@gmail.com](mailto:myatkrub@gmail.com)
 
 <!--
