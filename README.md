@@ -2,5 +2,4 @@
 
 ### Trivia
 - 🔭 I’m currently working on the [Oracle NetSuite Projects](https://www.netsuite.com/)
-- 🌱 I’m currently learning [JavaScript](https://js.org/) and 🕸 Deep Learning.
 
