@@ -1,9 +1,4 @@
 # Hello! I'm Min Myat Oo, NetSuite Enthusiast 🌐
-
-Welcome!
-I invite you to discover my open source projects and collaborations.
-Don't hesitate to reach out and connect with me.
-Happy exploring!
 ---
 ## Open Source Projects 💻
 
@@ -12,9 +7,9 @@ Happy exploring!
 3. **Zip Code and Address Converter** [Link](https://github.com/minmyatoo/sg-zipcode-converter): This command-line tool allows you to convert zip codes to addresses and vice versa using the OneMap API.
 4. **OpenAI Chatbox** [Link](https://github.com/minmyatoo/openai-chatbox-node): This application allows you to interact with OpenAI's ChatGPT API and store the conversation history. You can view and export the history in different formats (CSV and TXT).
 5. **LTA API Project** [Link](https://github.com/minmyatoo/lta-api-cli-tool): This project is a command-line interface (CLI) for accessing the Singapore Land Transport Authority (LTA) DataMall APIs. It allows users to fetch bus arrival information, parking availability, nearest bus stops, and estimated travel time between two bus stops.
-6**Thai Lottery Checker** [Link](https://github.com/minmyatoo/thai-lottery-checker): This is a Node.js script that checks if a given Thai lottery number has won any prizes on a specific date. It scrapes the lottery results from the official Sanook News website using the Cheerio web scraping library.
+6. **Thai Lottery Checker** [Link](https://github.com/minmyatoo/thai-lottery-checker): This is a Node.js script that checks if a given Thai lottery number has won any prizes on a specific date. It scrapes the lottery results from the official Sanook News website using the Cheerio web scraping library.
 7. **NPM Package Info** [Link](https://github.com/minmyatoo/npm-package-info): A simple command-line tool to query and search for npm packages.
-5. **Win Maintenance Toolkit** [Link](https://github.com/minmyatoo/win-maintenance-helper): A Windows Batch script to automate common maintenance tasks on your computer.
+8. **Win Maintenance Toolkit** [Link](https://github.com/minmyatoo/win-maintenance-helper): A Windows Batch script to automate common maintenance tasks on your computer.
 
 
 ## Connect with Me 🤝
