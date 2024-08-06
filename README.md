@@ -34,10 +34,4 @@ I believe that well-crafted code is like a good cup of coffee - it should be str
 
 ---
 
-<div align="center">
-  
-  ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=yourgithubusername&show_icons=true&theme=radical)
-  
-</div>
-
 Feel free to explore my repositories and don't hesitate to reach out if you have any questions or just want to chat about NetSuite development!
