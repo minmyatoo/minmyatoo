@@ -8,22 +8,16 @@
 
 I'm Mike Min Myat, a passionate NetSuite developer specializing in creating efficient business solutions using SuiteScript and SuiteQL.
 
-### 🔭 Current Focus
-- Developing custom solutions for the telecom industry
-- Optimizing business processes through NetSuite customizations
+
 
 ### 💼 Skills
 ![NetSuite](https://img.shields.io/badge/NetSuite-4E94D2?style=for-the-badge&logo=netsuite&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
 
-### 🌱 I'm currently learning
-- Advanced SuiteScript techniqueså
-- Best practices in ERP customization
 
 ### 👯 I'm looking to collaborate on
 - Open-source NetSuite projects
-- Innovative ERP solutions
 
 ### 📫 How to reach me
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/minmyatoo/)
