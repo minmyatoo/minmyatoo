@@ -1,0 +1,2146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mike's Professional Profile</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+      :root {
+        --primary: #0070f3;
+        --primary-dark: #0058c1;
+        --secondary: #1d2432;
+        --accent: #10b981;
+        --accent-dark: #059669;
+        --background: #f8fafc;
+        --text: #1e293b;
+        --light-text: #64748b;
+        --card-bg: #ffffff;
+        --border: #e2e8f0;
+        --hover: #f1f5f9;
+        --gradient-1: linear-gradient(135deg, #0070f3, #00c6ff);
+        --gradient-2: linear-gradient(135deg, #10b981, #4ade80);
+        --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+        --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+          0 2px 4px -1px rgba(0, 0, 0, 0.06);
+        --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+          0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+          0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        --shadow-inner: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06);
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI",
+          Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+          sans-serif;
+      }
+
+      body {
+        background-color: var(--background);
+        color: var(--text);
+        line-height: 1.6;
+        padding: 0;
+        margin: 0;
+        transition: all 0.3s ease;
+        overflow-x: hidden;
+        scroll-behavior: smooth;
+      }
+
+      body::before {
+        content: "";
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%230070f3' fill-opacity='0.03'%3E%3Cpath opacity='.5' d='M96 95h4v1h-4v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9zm-1 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9z'/%3E%3Cpath d='M6 5V0H5v5H0v1h5v94h1V6h94V5H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+        z-index: -1;
+        pointer-events: none;
+        opacity: 0.8;
+      }
+
+      .container {
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 2rem 1.5rem;
+      }
+
+      .floating-nav {
+        position: fixed;
+        bottom: 2rem;
+        left: 50%;
+        transform: translateX(-50%);
+        background: var(--card-bg);
+        border-radius: 50px;
+        padding: 0.75rem 1.5rem;
+        display: flex;
+        gap: 1.5rem;
+        box-shadow: var(--shadow-lg);
+        z-index: 1000;
+        border: 1px solid var(--border);
+      }
+
+      .floating-nav a {
+        color: var(--light-text);
+        font-size: 1.25rem;
+        transition: all 0.3s ease;
+      }
+
+      .floating-nav a:hover,
+      .floating-nav a.active {
+        color: var(--primary);
+        transform: translateY(-3px);
+      }
+
+      header {
+        text-align: center;
+        margin-bottom: 2.5rem;
+        position: relative;
+        padding: 2rem 0;
+      }
+
+      .header-bg {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 200px;
+        background-image: var(--gradient-1);
+        z-index: -1;
+        border-radius: 0 0 50% 50% / 20px;
+        opacity: 0.8;
+      }
+
+      .profile-wrapper {
+        position: relative;
+        margin-bottom: 1.5rem;
+        display: inline-block;
+      }
+
+      .profile-img {
+        width: 140px;
+        height: 140px;
+        border-radius: 50%;
+        border: 4px solid var(--card-bg);
+        padding: 4px;
+        margin-bottom: 1rem;
+        object-fit: cover;
+        background-color: var(--card-bg);
+        box-shadow: var(--shadow-lg);
+        transition: all 0.3s ease;
+        position: relative;
+        z-index: 2;
+      }
+
+      .profile-img:hover {
+        transform: scale(1.05);
+      }
+
+      .profile-status {
+        position: absolute;
+        bottom: 2rem;
+        right: 0.5rem;
+        width: 30px;
+        height: 30px;
+        background-color: var(--accent);
+        border-radius: 50%;
+        border: 3px solid var(--card-bg);
+        z-index: 3;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-size: 0.75rem;
+        box-shadow: var(--shadow-md);
+        animation: pulse 2s infinite;
+      }
+
+      @keyframes pulse {
+        0% {
+          box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.7);
+        }
+        70% {
+          box-shadow: 0 0 0 10px rgba(16, 185, 129, 0);
+        }
+        100% {
+          box-shadow: 0 0 0 0 rgba(16, 185, 129, 0);
+        }
+      }
+
+      h1 {
+        font-size: 2.5rem;
+        color: var(--secondary);
+        margin-bottom: 0.5rem;
+        font-weight: 700;
+      }
+
+      .tagline {
+        color: var(--light-text);
+        font-size: 1.2rem;
+        margin-bottom: 1.5rem;
+        font-weight: 400;
+      }
+
+      .quick-stats {
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+        margin-bottom: 1.5rem;
+      }
+
+      .stat {
+        text-align: center;
+      }
+
+      .stat-number {
+        font-size: 1.5rem;
+        font-weight: 700;
+        color: var(--primary);
+      }
+
+      .stat-label {
+        font-size: 0.85rem;
+        color: var(--light-text);
+      }
+
+      .links-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+        gap: 1rem;
+        margin-bottom: 2.5rem;
+      }
+
+      .link-btn {
+        display: flex;
+        align-items: center;
+        background-color: var(--card-bg);
+        color: var(--secondary);
+        padding: 1rem;
+        border-radius: 12px;
+        text-decoration: none;
+        font-weight: 500;
+        border: 1px solid var(--border);
+        transition: all 0.3s ease;
+        gap: 0.75rem;
+        box-shadow: var(--shadow-sm);
+        position: relative;
+        overflow: hidden;
+        z-index: 1;
+      }
+
+      .link-btn::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 3px;
+        height: 100%;
+        background-image: var(--gradient-1);
+        transition: all 0.3s ease;
+        z-index: -1;
+      }
+
+      .link-btn:hover::before {
+        width: 100%;
+        border-radius: 12px;
+      }
+
+      .link-btn:hover {
+        color: white;
+        transform: translateY(-3px);
+        box-shadow: var(--shadow-lg);
+        border-color: transparent;
+      }
+
+      .link-btn:hover i {
+        color: white;
+      }
+
+      .link-btn i {
+        font-size: 1.25rem;
+        color: var(--primary);
+        transition: all 0.3s ease;
+      }
+
+      .section {
+        background-color: var(--card-bg);
+        border-radius: 16px;
+        padding: 1.75rem;
+        margin-bottom: 2rem;
+        border: 1px solid var(--border);
+        box-shadow: var(--shadow-md);
+        transition: all 0.3s ease;
+        position: relative;
+        overflow: hidden;
+      }
+
+      .section:hover {
+        box-shadow: var(--shadow-lg);
+        transform: translateY(-5px);
+      }
+
+      .section::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 30%;
+        height: 5px;
+        background-image: var(--gradient-1);
+        border-bottom-left-radius: 5px;
+      }
+
+      .section.alt::after {
+        background-image: var(--gradient-2);
+      }
+
+      .section h2 {
+        color: var(--primary);
+        margin-bottom: 1.25rem;
+        font-size: 1.6rem;
+        border-bottom: 1px solid var(--border);
+        padding-bottom: 0.75rem;
+        font-weight: 600;
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+      }
+
+      .section h2 i {
+        font-size: 1.2rem;
+      }
+
+      .section-intro {
+        margin-bottom: 1.5rem;
+        color: var(--light-text);
+        font-size: 0.95rem;
+      }
+
+      .project {
+        background-color: var(--hover);
+        padding: 1.25rem;
+        border-radius: 12px;
+        margin-bottom: 1.5rem;
+        border: 1px solid var(--border);
+        transition: all 0.3s ease;
+      }
+
+      .project:hover {
+        box-shadow: var(--shadow-md);
+        transform: translateY(-3px);
+      }
+
+      .project:last-child {
+        margin-bottom: 0;
+      }
+
+      .project h3 {
+        color: var(--secondary);
+        margin-bottom: 0.75rem;
+        font-size: 1.3rem;
+        font-weight: 600;
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+      }
+
+      .project h3 i {
+        color: var(--primary);
+        font-size: 1.1rem;
+      }
+
+      .project p {
+        color: var(--light-text);
+        margin-bottom: 1rem;
+        font-size: 0.95rem;
+        line-height: 1.7;
+      }
+
+      .project-list {
+        margin-bottom: 1rem;
+        padding-left: 1.5rem;
+      }
+
+      .project-list li {
+        margin-bottom: 0.5rem;
+        position: relative;
+        padding-left: 0.5rem;
+        color: var(--text);
+        font-size: 0.95rem;
+      }
+
+      .project-list li::before {
+        content: "";
+        position: absolute;
+        left: -1rem;
+        top: 0.5rem;
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        background-color: var(--primary);
+      }
+
+      .tags {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+        margin-top: 1rem;
+      }
+
+      .tag {
+        background-color: rgba(0, 112, 243, 0.1);
+        color: var(--primary);
+        padding: 0.4rem 0.9rem;
+        border-radius: 20px;
+        font-size: 0.8rem;
+        font-weight: 500;
+        transition: all 0.3s ease;
+      }
+
+      .tag:hover {
+        background-color: var(--primary);
+        color: white;
+        transform: translateY(-2px);
+      }
+
+      .skills-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+        gap: 1.5rem;
+        margin-top: 1.5rem;
+      }
+
+      .skill {
+        position: relative;
+      }
+
+      .skill-name {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 0.5rem;
+        font-weight: 500;
+      }
+
+      .skill-percentage {
+        color: var(--primary);
+      }
+
+      .skill-bar {
+        height: 10px;
+        background-color: var(--hover);
+        border-radius: 10px;
+        overflow: hidden;
+        position: relative;
+      }
+
+      .skill-progress {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        background-image: var(--gradient-1);
+        border-radius: 10px;
+        animation: progressAnimation 1.5s ease-in-out;
+      }
+
+      @keyframes progressAnimation {
+        0% {
+          width: 0;
+        }
+      }
+
+      .timeline {
+        position: relative;
+        margin-top: 2rem;
+        padding-left: 2rem;
+      }
+
+      .timeline::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 4px;
+        background-image: var(--gradient-1);
+        border-radius: 4px;
+      }
+
+      .timeline-item {
+        position: relative;
+        padding-bottom: 2rem;
+      }
+
+      .timeline-item:last-child {
+        padding-bottom: 0;
+      }
+
+      .timeline-dot {
+        position: absolute;
+        left: -2.35rem;
+        top: 0;
+        width: 16px;
+        height: 16px;
+        border-radius: 50%;
+        background-color: var(--primary);
+        border: 3px solid var(--card-bg);
+        z-index: 2;
+      }
+
+      .timeline-date {
+        display: inline-block;
+        padding: 0.3rem 0.8rem;
+        background-color: rgba(0, 112, 243, 0.1);
+        color: var(--primary);
+        border-radius: 20px;
+        font-size: 0.8rem;
+        font-weight: 500;
+        margin-bottom: 0.5rem;
+      }
+
+      .timeline-content {
+        background-color: var(--hover);
+        padding: 1rem;
+        border-radius: 8px;
+        border: 1px solid var(--border);
+      }
+
+      .timeline-title {
+        font-weight: 600;
+        margin-bottom: 0.5rem;
+        color: var(--secondary);
+      }
+
+      .timeline-description {
+        color: var(--light-text);
+        font-size: 0.9rem;
+      }
+
+      .industries {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.75rem;
+        margin-top: 1.5rem;
+      }
+
+      .industry {
+        background-image: var(--gradient-2);
+        color: white;
+        padding: 0.4rem 1rem;
+        border-radius: 20px;
+        font-size: 0.9rem;
+        font-weight: 500;
+        transition: all 0.3s ease;
+        box-shadow: var(--shadow-sm);
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+      }
+
+      .industry:hover {
+        transform: translateY(-3px);
+        box-shadow: var(--shadow-md);
+      }
+
+      .industry i {
+        font-size: 0.8rem;
+      }
+
+      .contact-info {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 1rem;
+        margin-top: 1.5rem;
+      }
+
+      .contact-card {
+        background-color: var(--hover);
+        padding: 1rem;
+        border-radius: 8px;
+        border: 1px solid var(--border);
+        transition: all 0.3s ease;
+        display: flex;
+        align-items: center;
+        gap: 0.75rem;
+      }
+
+      .contact-card:hover {
+        transform: translateY(-3px);
+        box-shadow: var(--shadow-md);
+      }
+
+      .contact-card i {
+        font-size: 1.25rem;
+        color: var(--primary);
+        background-color: rgba(0, 112, 243, 0.1);
+        width: 40px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 8px;
+      }
+
+      .contact-card-content a {
+        color: var(--primary);
+        text-decoration: none;
+        font-weight: 500;
+        transition: all 0.3s ease;
+      }
+
+      .contact-card-content a:hover {
+        color: var(--primary-dark);
+        text-decoration: underline;
+      }
+
+      .contact-card-title {
+        font-size: 0.8rem;
+        color: var(--light-text);
+        margin-bottom: 0.25rem;
+      }
+
+      footer {
+        text-align: center;
+        margin-top: 3rem;
+        color: var(--light-text);
+        font-size: 0.9rem;
+        position: relative;
+        padding: 2rem 0;
+      }
+
+      .footer-content {
+        position: relative;
+        z-index: 2;
+      }
+
+      .footer-bg {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 150px;
+        background-image: var(--gradient-1);
+        opacity: 0.05;
+        z-index: 1;
+        border-radius: 50% 50% 0 0 / 20px;
+      }
+
+      .footer-links {
+        display: flex;
+        justify-content: center;
+        gap: 1.25rem;
+        margin: 1rem 0;
+      }
+
+      .footer-links a {
+        color: var(--primary);
+        font-size: 1.4rem;
+        transition: all 0.3s ease;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: var(--card-bg);
+        border-radius: 50%;
+        box-shadow: var(--shadow-md);
+      }
+
+      .footer-links a:hover {
+        color: white;
+        background-color: var(--primary);
+        transform: translateY(-3px) rotate(8deg);
+        box-shadow: var(--shadow-lg);
+      }
+
+      .theme-toggle {
+        position: fixed;
+        top: 1.5rem;
+        right: 1.5rem;
+        background: var(--card-bg);
+        border: 1px solid var(--border);
+        border-radius: 50%;
+        width: 45px;
+        height: 45px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        box-shadow: var(--shadow-md);
+        z-index: 100;
+        transition: all 0.3s ease;
+      }
+
+      .theme-toggle:hover {
+        transform: rotate(30deg);
+        box-shadow: var(--shadow-lg);
+      }
+
+      .theme-toggle i {
+        font-size: 1.2rem;
+        color: var(--primary);
+        transition: all 0.3s ease;
+      }
+
+      /* Tech Stack Styles */
+      .tech-container {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+      }
+
+      .tech-category-title {
+        color: var(--primary);
+        font-size: 1.2rem;
+        margin-bottom: 1rem;
+        padding-bottom: 0.5rem;
+        border-bottom: 1px solid var(--border);
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+      }
+
+      .tech-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+        gap: 1rem;
+      }
+
+      .tech-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        transition: all 0.3s ease;
+      }
+
+      .tech-item:hover {
+        transform: translateY(-5px);
+      }
+
+      .tech-icon {
+        width: 60px;
+        height: 60px;
+        border-radius: 12px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 0.75rem;
+        box-shadow: var(--shadow-md);
+      }
+
+      .tech-icon i {
+        color: white;
+        font-size: 1.5rem;
+      }
+
+      .tech-name {
+        color: var(--text);
+        font-size: 0.85rem;
+        font-weight: 500;
+        line-height: 1.3;
+      }
+
+      /* Charity Styles */
+      .charity-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        gap: 1rem;
+        margin-bottom: 1.5rem;
+      }
+
+      .charity-card {
+        display: flex;
+        align-items: center;
+        background-color: var(--card-bg);
+        border-radius: 12px;
+        padding: 1rem;
+        text-decoration: none;
+        border: 1px solid var(--border);
+        transition: all 0.3s ease;
+        box-shadow: var(--shadow-sm);
+        overflow: hidden;
+      }
+
+      .charity-card:hover {
+        transform: translateY(-5px);
+        box-shadow: var(--shadow-md);
+      }
+
+      .charity-icon {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 1rem;
+        flex-shrink: 0;
+      }
+
+      .charity-icon i {
+        color: white;
+        font-size: 1.25rem;
+      }
+
+      .charity-info {
+        flex: 1;
+      }
+
+      .charity-info h5 {
+        color: var(--secondary);
+        margin: 0;
+        margin-bottom: 0.25rem;
+        font-size: 1rem;
+        font-weight: 600;
+      }
+
+      .charity-info p {
+        color: var(--light-text);
+        margin: 0;
+        font-size: 0.85rem;
+        line-height: 1.4;
+      }
+
+      /* Dark mode */
+      body.dark-mode {
+        --primary: #3b82f6;
+        --primary-dark: #2563eb;
+        --secondary: #f9fafb;
+        --accent: #10b981;
+        --accent-dark: #059669;
+        --background: #111827;
+        --text: #e5e7eb;
+        --light-text: #9ca3af;
+        --card-bg: #1f2937;
+        --border: #374151;
+        --hover: #1f2937;
+        --gradient-1: linear-gradient(135deg, #3b82f6, #60a5fa);
+        --gradient-2: linear-gradient(135deg, #10b981, #34d399);
+      }
+
+      body.dark-mode::before {
+        opacity: 0.2;
+      }
+
+      /* Animation classes */
+      .fade-in {
+        animation: fadeIn 0.8s ease forwards;
+      }
+
+      .slide-up {
+        animation: slideUp 0.8s ease forwards;
+      }
+
+      .slide-down {
+        animation: slideDown 0.8s ease forwards;
+      }
+
+      .slide-left {
+        animation: slideLeft 0.8s ease forwards;
+      }
+
+      .slide-right {
+        animation: slideRight 0.8s ease forwards;
+      }
+
+      .scale-in {
+        animation: scaleIn 0.8s ease forwards;
+      }
+
+      .bounce-in {
+        animation: bounceIn 0.8s ease forwards;
+      }
+
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+
+      @keyframes slideUp {
+        from {
+          transform: translateY(50px);
+          opacity: 0;
+        }
+        to {
+          transform: translateY(0);
+          opacity: 1;
+        }
+      }
+
+      @keyframes slideDown {
+        from {
+          transform: translateY(-50px);
+          opacity: 0;
+        }
+        to {
+          transform: translateY(0);
+          opacity: 1;
+        }
+      }
+
+      @keyframes slideLeft {
+        from {
+          transform: translateX(50px);
+          opacity: 0;
+        }
+        to {
+          transform: translateX(0);
+          opacity: 1;
+        }
+      }
+
+      @keyframes slideRight {
+        from {
+          transform: translateX(-50px);
+          opacity: 0;
+        }
+        to {
+          transform: translateX(0);
+          opacity: 1;
+        }
+      }
+
+      @keyframes scaleIn {
+        from {
+          transform: scale(0.9);
+          opacity: 0;
+        }
+        to {
+          transform: scale(1);
+          opacity: 1;
+        }
+      }
+
+      @keyframes bounceIn {
+        0% {
+          transform: scale(0.3);
+          opacity: 0;
+        }
+        40% {
+          transform: scale(1.1);
+        }
+        80% {
+          transform: scale(0.9);
+        }
+        100% {
+          transform: scale(1);
+          opacity: 1;
+        }
+      }
+
+      @media (max-width: 768px) {
+        .container {
+          padding: 1.5rem 1rem;
+        }
+
+        .profile-img {
+          width: 120px;
+          height: 120px;
+        }
+
+        h1 {
+          font-size: 2rem;
+        }
+
+        .tagline {
+          font-size: 1rem;
+        }
+
+        .quick-stats {
+          gap: 1rem;
+        }
+
+        .links-container {
+          grid-template-columns: 1fr;
+        }
+
+        .section {
+          padding: 1.25rem;
+        }
+
+        .skills-container {
+          grid-template-columns: 1fr;
+        }
+
+        .contact-info {
+          grid-template-columns: 1fr;
+        }
+
+        .floating-nav {
+          padding: 0.5rem 1rem;
+          gap: 1rem;
+        }
+
+        .floating-nav a {
+          font-size: 1.1rem;
+        }
+
+        .tech-grid {
+          grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+        }
+
+        .tech-icon {
+          width: 50px;
+          height: 50px;
+        }
+
+        .tech-icon i {
+          font-size: 1.25rem;
+        }
+
+        .tech-name {
+          font-size: 0.8rem;
+        }
+
+        .charity-grid {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="theme-toggle" onclick="toggleTheme()">
+      <i class="fas fa-moon"></i>
+    </div>
+
+    <nav class="floating-nav">
+      <a href="#" class="active"><i class="fas fa-home"></i></a>
+      <a href="#expertise"><i class="fas fa-briefcase"></i></a>
+      <a href="#recommendations"><i class="fas fa-star"></i></a>
+      <a href="#tech-stack"><i class="fas fa-code"></i></a>
+      <a href="#experience"><i class="fas fa-building"></i></a>
+      <a href="#contact"><i class="fas fa-envelope"></i></a>
+    </nav>
+
+    <div class="container">
+      <header>
+        <div class="header-bg"></div>
+        <div class="profile-wrapper animate__animated animate__fadeIn">
+          <img src="./profile.png" alt="Profile Picture" class="profile-img" />
+          <div class="profile-status"><i class="fas fa-check"></i></div>
+        </div>
+        <h1 class="animate__animated animate__fadeIn">Mike</h1>
+        <p class="tagline animate__animated animate__fadeIn">
+          ERP Implementation Specialist & Solution Architect
+        </p>
+
+        <div class="quick-stats animate__animated animate__fadeIn">
+          <div class="stat">
+            <div class="stat-number">7+</div>
+            <div class="stat-label">Years Experience</div>
+          </div>
+          <div class="stat">
+            <div class="stat-number">25+</div>
+            <div class="stat-label">Projects</div>
+          </div>
+          <div class="stat">
+            <div class="stat-number">5+</div>
+            <div class="stat-label">Industries</div>
+          </div>
+        </div>
+      </header>
+
+      <div class="links-container">
+        <a
+          href="https://minmyatoo.github.io/resume/"
+          class="link-btn animate__animated animate__fadeInUp"
+          target="_blank"
+        >
+          <i class="fas fa-file-alt"></i>
+          <span>View Resume</span>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/minmyatoo"
+          class="link-btn animate__animated animate__fadeInUp"
+          target="_blank"
+          style="animation-delay: 0.1s"
+        >
+          <i class="fab fa-linkedin"></i>
+          <span>Connect on LinkedIn</span>
+        </a>
+        <a
+          href="https://github.com/minmyatoo?tab=repositories"
+          class="link-btn animate__animated animate__fadeInUp"
+          target="_blank"
+          style="animation-delay: 0.2s"
+        >
+          <i class="fab fa-github"></i>
+          <span>GitHub Projects</span>
+        </a>
+        <a
+          href="#contact"
+          class="link-btn animate__animated animate__fadeInUp"
+          style="animation-delay: 0.3s"
+        >
+          <i class="fas fa-envelope"></i>
+          <span>Contact Me</span>
+        </a>
+      </div>
+
+      <section class="section" id="expertise">
+        <h2><i class="fas fa-star"></i> Expertise</h2>
+        <p class="section-intro">
+          Specializing in ERP implementation with a focus on custom solutions
+          for business optimization.
+        </p>
+
+        <div class="skills-container">
+          <div class="skill">
+            <div class="skill-name">
+              <span>NetSuite</span>
+              <span class="skill-percentage">95%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" style="width: 95%"></div>
+            </div>
+          </div>
+          <div class="skill">
+            <div class="skill-name">
+              <span>SuiteScript</span>
+              <span class="skill-percentage">90%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" style="width: 90%"></div>
+            </div>
+          </div>
+          <div class="skill">
+            <div class="skill-name">
+              <span>Odoo</span>
+              <span class="skill-percentage">85%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" style="width: 85%"></div>
+            </div>
+          </div>
+          <div class="skill">
+            <div class="skill-name">
+              <span>Python</span>
+              <span class="skill-percentage">80%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" style="width: 80%"></div>
+            </div>
+          </div>
+          <div class="skill">
+            <div class="skill-name">
+              <span>API Integration</span>
+              <span class="skill-percentage">88%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" style="width: 88%"></div>
+            </div>
+          </div>
+          <div class="skill">
+            <div class="skill-name">
+              <span>Business Process Automation</span>
+              <span class="skill-percentage">92%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" style="width: 92%"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="project">
+          <h3>
+            <i class="fab fa-neos"></i> NetSuite Implementation Specialist
+          </h3>
+          <p>
+            Specializing in customized NetSuite ERP solutions with expertise in
+            SuiteScript, workflows, and integrations.
+          </p>
+          <div class="tags">
+            <span class="tag">SuiteScript</span>
+            <span class="tag">Workflows</span>
+            <span class="tag">SuiteFlow</span>
+            <span class="tag">REST Integrations</span>
+          </div>
+        </div>
+
+        <div class="project">
+          <h3>
+            <i class="fas fa-shapes"></i> Odoo Development & Implementation
+          </h3>
+          <p>
+            Delivering end-to-end Odoo implementations with custom module
+            development and business process automation.
+          </p>
+          <div class="tags">
+            <span class="tag">Python</span>
+            <span class="tag">Odoo Studio</span>
+            <span class="tag">Custom Modules</span>
+            <span class="tag">API Integration</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="tech-stack">
+        <h2><i class="fas fa-code"></i> Technology Stack</h2>
+        <p class="section-intro">
+          Specialized in implementing and customizing the following NetSuite
+          modules and technologies:
+        </p>
+
+        <div class="tech-container">
+          <div class="tech-category">
+            <h3 class="tech-category-title">
+              <i class="fab fa-neos"></i> NetSuite Core Modules
+            </h3>
+            <div class="tech-grid">
+              <div class="tech-item">
+                <div
+                  class="tech-icon"
+                  style="background: linear-gradient(135deg, #3b72ab, #2f5c8c)"
+                >
+                  <i class="fas fa-calculator"></i>
+                </div>
+                <div class="tech-name">NetSuite Financials</div>
+              </div>
+              <div class="tech-item">
+                <div
+                  class="tech-icon"
+                  style="background: linear-gradient(135deg, #3b72ab, #2f5c8c)"
+                >
+                  <i class="fas fa-boxes"></i>
+                </div>
+                <div class="tech-name">Inventory Management</div>
+              </div>
+              <div class="tech-item">
+                <div
+                  class="tech-icon"
+                  style="background: linear-gradient(135deg, #3b72ab, #2f5c8c)"
+                >
+                  <i class="fas fa-shopping-cart"></i>
+                </div>
+                <div class="tech-name">Order Management</div>
+              </div>
+              <div class="tech-item">
+                <div
+                  class="tech-icon"
+                  style="background: linear-gradient(135deg, #3b72ab, #2f5c8c)"
+                >
+                  <i class="fas fa-truck"></i>
+                </div>
+                <div class="tech-name">WMS & Fulfillment</div>
+              </div>
+              <div class="tech-item">
+                <div
+                  class="tech-icon"
+                  style="background: linear-gradient(135deg, #3b72ab, #2f5c8c)"
+                >
+                  <i class="fas fa-chart-line"></i>
+                </div>
+                <div class="tech-name">SuiteAnalytics</div>
+              </div>
+              <div class="tech-item">
+                <div
+                  class="tech-icon"
+                  style="background: linear-gradient(135deg, #3b72ab, #2f5c8c)"
+                >
+                  <i class="fas fa-globe"></i>
+                </div>
+                <div class="tech-name">OneWorld</div>
+              </div>
+              <div class="tech-item">
+                <div
+                  class="tech-icon"
+                  style="background: linear-gradient(135deg, #3b72ab, #2f5c8c)"
+                >
+                  <i class="fas fa-users"></i>
+                </div>
+                <div class="tech-name">CRM</div>
+              </div>
+              <div class="tech-item">
+                <div
+                  class="tech-icon"
+                  style="background: linear-gradient(135deg, #3b72ab, #2f5c8c)"
+                >
+                  <i class="fas fa-cogs"></i>
+                </div>
+                <div class="tech-name">Manufacturing</div>
+              </div>
+              <div class="tech-item">
+                <div
+                  class="tech-icon"
+                  style="background: linear-gradient(135deg, #3b72ab, #2f5c8c)"
+                >
+                  <i class="fas fa-user-tie"></i>
+                </div>
+                <div class="tech-name">SuitePeople HR</div>
+              </div>
+              <div class="tech-item">
+                <div
+                  class="tech-icon"
+                  style="background: linear-gradient(135deg, #3b72ab, #2f5c8c)"
+                >
+                  <i class="fas fa-project-diagram"></i>
+                </div>
+                <div class="tech-name">SuiteProjects</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="tech-category">
+            <h3 class="tech-category-title">
+              <i class="fas fa-laptop-code"></i> Development & Customization
+            </h3>
+            <div class="tech-grid">
+              <div class="tech-item">
+                <div
+                  class="tech-icon"
+                  style="background: linear-gradient(135deg, #f7941d, #f15a24)"
+                >
+                  <i class="fas fa-code"></i>
+                </div>
+                <div class="tech-name">SuiteScript 2.0/2.1</div>
+              </div>
+              <div class="tech-item">
+                <div
+                  class="tech-icon"
+                  style="background: linear-gradient(135deg, #f7941d, #f15a24)"
+                >
+                  <i class="fab fa-js"></i>
+                </div>
+                <div class="tech-name">JavaScript ES6+</div>
+              </div>
+              <div class="tech-item">
+                <div
+                  class="tech-icon"
+                  style="background: linear-gradient(135deg, #f7941d, #f15a24)"
+                >
+                  <i class="fas fa-search"></i>
+                </div>
+                <div class="tech-name">SuiteQL</div>
+              </div>
+              <div class="tech-item">
+                <div
+                  class="tech-icon"
+                  style="background: linear-gradient(135deg, #f7941d, #f15a24)"
+                >
+                  <i class="fas fa-file-code"></i>
+                </div>
+                <div class="tech-name">SuiteFlow</div>
+              </div>
+              <div class="tech-item">
+                <div
+                  class="tech-icon"
+                  style="background: linear-gradient(135deg, #f7941d, #f15a24)"
+                >
+                  <i class="fas fa-palette"></i>
+                </div>
+                <div class="tech-name">SuiteBuilder</div>
+              </div>
+              <div class="tech-item">
+                <div
+                  class="tech-icon"
+                  style="background: linear-gradient(135deg, #f7941d, #f15a24)"
+                >
+                  <i class="fas fa-th"></i>
+                </div>
+                <div class="tech-name">SuiteTalk</div>
+              </div>
+              <div class="tech-item">
+                <div
+                  class="tech-icon"
+                  style="background: linear-gradient(135deg, #f7941d, #f15a24)"
+                >
+                  <i class="fas fa-file-alt"></i>
+                </div>
+                <div class="tech-name">SuiteBundle</div>
+              </div>
+              <div class="tech-item">
+                <div
+                  class="tech-icon"
+                  style="background: linear-gradient(135deg, #f7941d, #f15a24)"
+                >
+                  <i class="fas fa-database"></i>
+                </div>
+                <div class="tech-name">SuiteBilling</div>
+              </div>
+              <div class="tech-item">
+                <div
+                  class="tech-icon"
+                  style="background: linear-gradient(135deg, #f7941d, #f15a24)"
+                >
+                  <i class="fas fa-key"></i>
+                </div>
+                <div class="tech-name">SuiteCloud Development</div>
+              </div>
+              <div class="tech-item">
+                <div
+                  class="tech-icon"
+                  style="background: linear-gradient(135deg, #f7941d, #f15a24)"
+                >
+                  <i class="fab fa-html5"></i>
+                </div>
+                <div class="tech-name">SuiteCommerce & SCA</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="tech-category">
+            <h3 class="tech-category-title">
+              <i class="fas fa-plug"></i> Integration & Tools
+            </h3>
+            <div class="tech-grid">
+              <div class="tech-item">
+                <div
+                  class="tech-icon"
+                  style="background: linear-gradient(135deg, #4a6baa, #324b7c)"
+                >
+                  <i class="fas fa-exchange-alt"></i>
+                </div>
+                <div class="tech-name">RESTful APIs</div>
+              </div>
+              <div class="tech-item">
+                <div
+                  class="tech-icon"
+                  style="background: linear-gradient(135deg, #4a6baa, #324b7c)"
+                >
+                  <i class="fas fa-file-code"></i>
+                </div>
+                <div class="tech-name">SOAP Web Services</div>
+              </div>
+              <div class="tech-item">
+                <div
+                  class="tech-icon"
+                  style="background: linear-gradient(135deg, #4a6baa, #324b7c)"
+                >
+                  <i class="fas fa-terminal"></i>
+                </div>
+                <div class="tech-name">SuiteCloud CLI</div>
+              </div>
+              <div class="tech-item">
+                <div
+                  class="tech-icon"
+                  style="background: linear-gradient(135deg, #4a6baa, #324b7c)"
+                >
+                  <i class="fas fa-code-branch"></i>
+                </div>
+                <div class="tech-name">SDF & Version Control</div>
+              </div>
+              <div class="tech-item">
+                <div
+                  class="tech-icon"
+                  style="background: linear-gradient(135deg, #4a6baa, #324b7c)"
+                >
+                  <i class="fab fa-node-js"></i>
+                </div>
+                <div class="tech-name">Node.js</div>
+              </div>
+              <div class="tech-item">
+                <div
+                  class="tech-icon"
+                  style="background: linear-gradient(135deg, #4a6baa, #324b7c)"
+                >
+                  <i class="fas fa-play-circle"></i>
+                </div>
+                <div class="tech-name">Celigo iPaaS</div>
+              </div>
+              <div class="tech-item">
+                <div
+                  class="tech-icon"
+                  style="background: linear-gradient(135deg, #4a6baa, #324b7c)"
+                >
+                  <i class="fas fa-random"></i>
+                </div>
+                <div class="tech-name">Dell Boomi</div>
+              </div>
+              <div class="tech-item">
+                <div
+                  class="tech-icon"
+                  style="background: linear-gradient(135deg, #4a6baa, #324b7c)"
+                >
+                  <i class="fab fa-microsoft"></i>
+                </div>
+                <div class="tech-name">MS Power Platform</div>
+              </div>
+              <div class="tech-item">
+                <div
+                  class="tech-icon"
+                  style="background: linear-gradient(135deg, #4a6baa, #324b7c)"
+                >
+                  <i class="fas fa-cloud"></i>
+                </div>
+                <div class="tech-name">Jira & Confluence</div>
+              </div>
+              <div class="tech-item">
+                <div
+                  class="tech-icon"
+                  style="background: linear-gradient(135deg, #4a6baa, #324b7c)"
+                >
+                  <i class="fas fa-robot"></i>
+                </div>
+                <div class="tech-name">RPA Tools</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="tech-category">
+            <h3 class="tech-category-title">
+              <i class="fas fa-graduation-cap"></i> Certifications &
+              Methodologies
+            </h3>
+            <div class="tech-grid">
+              <div class="tech-item">
+                <div
+                  class="tech-icon"
+                  style="background: linear-gradient(135deg, #2b7a78, #17252a)"
+                >
+                  <i class="fas fa-certificate"></i>
+                </div>
+                <div class="tech-name">ITPE (IP)</div>
+              </div>
+              <div class="tech-item">
+                <div
+                  class="tech-icon"
+                  style="background: linear-gradient(135deg, #2b7a78, #17252a)"
+                >
+                  <i class="fas fa-certificate"></i>
+                </div>
+                <div class="tech-name">SuiteFoundation</div>
+              </div>
+
+              <div class="tech-item">
+                <div
+                  class="tech-icon"
+                  style="background: linear-gradient(135deg, #2b7a78, #17252a)"
+                >
+                  <i class="fas fa-certificate"></i>
+                </div>
+                <div class="tech-name">ERP Consultant</div>
+              </div>
+              <div class="tech-item">
+                <div
+                  class="tech-icon"
+                  style="background: linear-gradient(135deg, #2b7a78, #17252a)"
+                >
+                  <i class="fas fa-tasks"></i>
+                </div>
+                <div class="tech-name">Agile/Scrum</div>
+              </div>
+              <div class="tech-item">
+                <div
+                  class="tech-icon"
+                  style="background: linear-gradient(135deg, #2b7a78, #17252a)"
+                >
+                  <i class="fas fa-clipboard-check"></i>
+                </div>
+                <div class="tech-name">SuiteSuccess Methodology</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section alt" id="recommendations">
+        <h2><i class="fas fa-lightbulb"></i> Project Ideas</h2>
+        <p class="section-intro">
+          Based on my implementation experience, here are the ERP projects I'm
+          excited to develop and implement in the future:
+        </p>
+
+        <div class="project">
+          <h3><i class="fas fa-robot"></i> Intelligent Automation Suite</h3>
+          <p>
+            I plan to develop a comprehensive automation toolset that eliminates
+            repetitive tasks and streamlines workflows.
+          </p>
+          <ul class="project-list">
+            <li>
+              End-to-end order-to-cash and procure-to-pay automation to reduce
+              processing time by up to 70%
+            </li>
+            <li>
+              Smart document management system with OCR capabilities for
+              streamlined invoice and receipt processing
+            </li>
+            <li>
+              Custom scheduled reporting and conditional alerts for proactive
+              stakeholder communication
+            </li>
+            <li>
+              Integration platform to connect disparate systems and eliminate
+              data silos across operations
+            </li>
+          </ul>
+          <div class="tags">
+            <span class="tag">Workflow Automation</span>
+            <span class="tag">Smart Triggers</span>
+            <span class="tag">Process Optimization</span>
+          </div>
+        </div>
+
+        <div class="project">
+          <h3>
+            <i class="fas fa-chart-line"></i> Advanced Analytics Dashboard
+          </h3>
+          <p>
+            I'm developing a next-generation analytics platform that transforms
+            raw data into actionable insights for decision-makers.
+          </p>
+          <ul class="project-list">
+            <li>
+              Role-specific KPI dashboards with personalized views for different
+              organizational needs
+            </li>
+            <li>
+              Predictive analytics engine using machine learning to forecast
+              trends and identify potential issues
+            </li>
+            <li>
+              Interactive financial scenario planner to model and evaluate
+              different business strategies
+            </li>
+            <li>
+              Mobile-first business intelligence tools for executives and
+              managers on the go
+            </li>
+          </ul>
+          <div class="tags">
+            <span class="tag">Business Intelligence</span>
+            <span class="tag">Data Visualization</span>
+            <span class="tag">Strategic Planning</span>
+          </div>
+        </div>
+
+        <div class="project">
+          <h3>
+            <i class="fas fa-shield-alt"></i> Enterprise Compliance Framework
+          </h3>
+          <p>
+            I'm building a comprehensive security and compliance system with
+            robust protection features and audit capabilities.
+          </p>
+          <ul class="project-list">
+            <li>
+              Dynamic role-based access control system with granular permission
+              management
+            </li>
+            <li>
+              Intelligent audit trail generator for detailed, searchable
+              transaction history
+            </li>
+            <li>
+              Global tax calculation engine that handles multi-jurisdiction
+              requirements automatically
+            </li>
+            <li>
+              Data protection toolkit with GDPR compliance features and
+              automated PII management
+            </li>
+          </ul>
+          <div class="tags">
+            <span class="tag">Data Security</span>
+            <span class="tag">Regulatory Compliance</span>
+            <span class="tag">Risk Management</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="experience">
+        <h2><i class="fas fa-building"></i> Industry Experience</h2>
+        <p class="section-intro">
+          Successfully managed tailored ERP solutions across diverse industries:
+        </p>
+
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">Fashion</div>
+            <div class="timeline-content">
+              <div class="timeline-title">
+                Inventory & Supply Chain Optimization
+              </div>
+              <div class="timeline-description">
+                Managed NetSuite to optimize inventory management for seasonal
+                product lines and intricate supply chain workflows, with
+                seamless integration to Shopify."
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">Manufacturing</div>
+            <div class="timeline-content">
+              <div class="timeline-title">Production & Quality Control</div>
+              <div class="timeline-description">
+                Developed custom modules for production monitoring and quality
+                assurance, including features like Overall Equipment
+                Effectiveness (OEE) and production planning.
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">FMCG</div>
+            <div class="timeline-content">
+              <div class="timeline-title">Distribution & Logistics</div>
+              <div class="timeline-description">
+                Created integrated solutions for high-volume distribution
+                networks and complex logistics operations.
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">Telecommunication</div>
+            <div class="timeline-content">
+              <div class="timeline-title">Service Management & Billing</div>
+              <div class="timeline-description">
+                Implemented subscription management systems and automated
+                billing solutions for telecom providers.
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">Trading</div>
+            <div class="timeline-content">
+              <div class="timeline-title">International Commerce Solutions</div>
+              <div class="timeline-description">
+                Developed multi-currency, multi-entity systems for global
+                trading operations with complex tax requirements.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="industries">
+          <span class="industry"><i class="fas fa-tshirt"></i> Fashion</span>
+          <span class="industry"
+            ><i class="fas fa-industry"></i> Manufacturing</span
+          >
+          <span class="industry"
+            ><i class="fas fa-shopping-basket"></i> FMCG</span
+          >
+          <span class="industry"
+            ><i class="fas fa-broadcast-tower"></i> Telecommunication</span
+          >
+          <span class="industry"
+            ><i class="fas fa-chart-line"></i> Trading</span
+          >
+        </div>
+      </section>
+
+      <section class="section alt" id="contact">
+        <h2><i class="fas fa-envelope"></i> Contact & Support</h2>
+        <p class="section-intro">
+          Interested in discussing how I can help optimize your business
+          processes with NetSuite or Odoo? Get in touch!
+        </p>
+
+        <div class="contact-info">
+          <div class="contact-card">
+            <i class="fas fa-envelope"></i>
+            <div class="contact-card-content">
+              <div class="contact-card-title">Email</div>
+              <a href="mailto:mikeminmyatoo@gmail.com"
+                >mikeminmyatoo@gmail.com</a
+              >
+            </div>
+          </div>
+
+          <div class="contact-card">
+            <i class="fas fa-phone"></i>
+            <div class="contact-card-content">
+              <div class="contact-card-title">Phone</div>
+              <a href="tel:+1234567890">+65 85703004</a>
+            </div>
+          </div>
+
+          <div class="contact-card">
+            <i class="fab fa-linkedin"></i>
+            <div class="contact-card-content">
+              <div class="contact-card-title">LinkedIn</div>
+              <a href="#" target="_blank">linkedin.com/in/minmyatoo</a>
+            </div>
+          </div>
+        </div>
+
+        <h3
+          style="
+            margin-top: 2rem;
+            color: var(--secondary);
+            font-size: 1.3rem;
+            font-weight: 600;
+          "
+        >
+          <i class="fas fa-heart" style="color: #e25555"></i> Support Charitable
+          Causes
+        </h3>
+        <p
+          style="
+            margin-bottom: 1.5rem;
+            color: var(--light-text);
+            font-size: 0.95rem;
+          "
+        >
+          I believe in giving back to the community. Please consider supporting
+          these worthy causes:
+        </p>
+
+        <div style="margin-bottom: 1.5rem">
+          <h4
+            style="
+              margin-bottom: 1rem;
+              color: var(--primary);
+              font-size: 1.1rem;
+              font-weight: 500;
+            "
+          >
+            <i class="fas fa-map-marker-alt"></i> Singapore Charities
+          </h4>
+
+          <div class="charity-grid">
+            <a
+              href="https://www.redcross.sg/donate/donate-now.html"
+              class="charity-card"
+              target="_blank"
+            >
+              <div
+                class="charity-icon"
+                style="background: linear-gradient(135deg, #f5515f, #e73827)"
+              >
+                <i class="fas fa-hand-holding-heart"></i>
+              </div>
+              <div class="charity-info">
+                <h5>Singapore Red Cross</h5>
+                <p>Emergency response & humanitarian services</p>
+              </div>
+            </a>
+
+            <a
+              href="https://www.giving.sg/community-chest"
+              class="charity-card"
+              target="_blank"
+            >
+              <div
+                class="charity-icon"
+                style="background: linear-gradient(135deg, #56ab2f, #a8e063)"
+              >
+                <i class="fas fa-hands-helping"></i>
+              </div>
+              <div class="charity-info">
+                <h5>Community Chest</h5>
+                <p>Supporting social service agencies</p>
+              </div>
+            </a>
+
+            <a
+              href="https://www.childrensociety.org.sg/donate"
+              class="charity-card"
+              target="_blank"
+            >
+              <div
+                class="charity-icon"
+                style="background: linear-gradient(135deg, #ff9966, #ff5e62)"
+              >
+                <i class="fas fa-child"></i>
+              </div>
+              <div class="charity-info">
+                <h5>Children's Society</h5>
+                <p>Protecting & nurturing children</p>
+              </div>
+            </a>
+
+            <a
+              href="https://www.foodbank.sg/make-a-donation/"
+              class="charity-card"
+              target="_blank"
+            >
+              <div
+                class="charity-icon"
+                style="background: linear-gradient(135deg, #ff7e5f, #feb47b)"
+              >
+                <i class="fas fa-utensils"></i>
+              </div>
+              <div class="charity-info">
+                <h5>Food Bank Singapore</h5>
+                <p>Fighting hunger & reducing food waste</p>
+              </div>
+            </a>
+
+            <a
+              href="https://www.spca.org.sg/support-us/donate/"
+              class="charity-card"
+              target="_blank"
+            >
+              <div
+                class="charity-icon"
+                style="background: linear-gradient(135deg, #7f7fd5, #86a8e7)"
+              >
+                <i class="fas fa-paw"></i>
+              </div>
+              <div class="charity-info">
+                <h5>SPCA Singapore</h5>
+                <p>Animal welfare & protection</p>
+              </div>
+            </a>
+
+            <a
+              href="https://www.giving.sg/campaigns"
+              class="charity-card"
+              target="_blank"
+            >
+              <div
+                class="charity-icon"
+                style="background: linear-gradient(135deg, #396afc, #2948ff)"
+              >
+                <i class="fas fa-dove"></i>
+              </div>
+              <div class="charity-info">
+                <h5>Giving.sg</h5>
+                <p>Browse multiple campaigns</p>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <div>
+          <h4
+            style="
+              margin-bottom: 1rem;
+              color: var(--primary);
+              font-size: 1.1rem;
+              font-weight: 500;
+            "
+          >
+            <i class="fas fa-globe"></i> International Charities
+          </h4>
+
+          <div class="charity-grid">
+            <a
+              href="https://www.unicef.org/donate"
+              class="charity-card"
+              target="_blank"
+            >
+              <div
+                class="charity-icon"
+                style="background: linear-gradient(135deg, #1e88e5, #4fc3f7)"
+              >
+                <i class="fas fa-globe-asia"></i>
+              </div>
+              <div class="charity-info">
+                <h5>UNICEF</h5>
+                <p>Supporting children worldwide</p>
+              </div>
+            </a>
+
+            <a
+              href="https://donate.doctorswithoutborders.org/"
+              class="charity-card"
+              target="_blank"
+            >
+              <div
+                class="charity-icon"
+                style="background: linear-gradient(135deg, #ec407a, #f48fb1)"
+              >
+                <i class="fas fa-briefcase-medical"></i>
+              </div>
+              <div class="charity-info">
+                <h5>Doctors Without Borders</h5>
+                <p>Emergency medical care</p>
+              </div>
+            </a>
+
+            <a
+              href="https://donate.wwf.org.sg/"
+              class="charity-card"
+              target="_blank"
+            >
+              <div
+                class="charity-icon"
+                style="background: linear-gradient(135deg, #43a047, #8bc34a)"
+              >
+                <i class="fas fa-leaf"></i>
+              </div>
+              <div class="charity-info">
+                <h5>WWF Singapore</h5>
+                <p>Environmental conservation</p>
+              </div>
+            </a>
+
+            <a
+              href="https://www.worldfoodprogram.org/en/donate/"
+              class="charity-card"
+              target="_blank"
+            >
+              <div
+                class="charity-icon"
+                style="background: linear-gradient(135deg, #ff5722, #ff9800)"
+              >
+                <i class="fas fa-seedling"></i>
+              </div>
+              <div class="charity-info">
+                <h5>World Food Programme</h5>
+                <p>Fighting global hunger</p>
+              </div>
+            </a>
+
+            <a
+              href="https://www.savethechildren.org/us/ways-to-help"
+              class="charity-card"
+              target="_blank"
+            >
+              <div
+                class="charity-icon"
+                style="background: linear-gradient(135deg, #d81b60, #e91e63)"
+              >
+                <i class="fas fa-child"></i>
+              </div>
+              <div class="charity-info">
+                <h5>Save the Children</h5>
+                <p>Protecting vulnerable children</p>
+              </div>
+            </a>
+
+            <a
+              href="https://give.unhcr.org/int/en/general"
+              class="charity-card"
+              target="_blank"
+            >
+              <div
+                class="charity-icon"
+                style="background: linear-gradient(135deg, #26c6da, #00bcd4)"
+              >
+                <i class="fas fa-home"></i>
+              </div>
+              <div class="charity-info">
+                <h5>UNHCR</h5>
+                <p>Supporting refugees worldwide</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <footer>
+        <div class="footer-bg"></div>
+        <div class="footer-content">
+          <div class="footer-links">
+            <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-medium"></i></a>
+          </div>
+          <p>© 2025 Mike | All Rights Reserved</p>
+          <p style="margin-top: 0.5rem">
+            ERP Solution Architect • NetSuite & Odoo Specialist
+          </p>
+        </div>
+      </footer>
+    </div>
+
+    <script>
+      function toggleTheme() {
+        const body = document.body;
+        const icon = document.querySelector(".theme-toggle i");
+
+        if (body.classList.contains("dark-mode")) {
+          body.classList.remove("dark-mode");
+          icon.classList.remove("fa-sun");
+          icon.classList.add("fa-moon");
+          localStorage.setItem("theme", "light");
+        } else {
+          body.classList.add("dark-mode");
+          icon.classList.remove("fa-moon");
+          icon.classList.add("fa-sun");
+          localStorage.setItem("theme", "dark");
+        }
+      }
+
+      // Check for saved theme preference
+      window.onload = function () {
+        const savedTheme = localStorage.getItem("theme");
+        const icon = document.querySelector(".theme-toggle i");
+
+        if (savedTheme === "dark") {
+          document.body.classList.add("dark-mode");
+          icon.classList.remove("fa-moon");
+          icon.classList.add("fa-sun");
+        }
+
+        // Smooth scroll for navigation
+        document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+          anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+
+            document.querySelectorAll(".floating-nav a").forEach((navLink) => {
+              navLink.classList.remove("active");
+            });
+
+            this.classList.add("active");
+
+            document.querySelector(this.getAttribute("href")).scrollIntoView({
+              behavior: "smooth",
+            });
+          });
+        });
+
+        // Intersection Observer for scroll animations
+        const observer = new IntersectionObserver(
+          (entries) => {
+            entries.forEach((entry) => {
+              if (entry.isIntersecting) {
+                entry.target.classList.add("animate__animated");
+                entry.target.classList.add("animate__fadeIn");
+              }
+            });
+          },
+          { threshold: 0.1 }
+        );
+
+        document.querySelectorAll(".section").forEach((section) => {
+          observer.observe(section);
+        });
+
+        // Active nav indicator on scroll
+        const sections = document.querySelectorAll("section");
+        window.addEventListener("scroll", () => {
+          let current = "";
+
+          sections.forEach((section) => {
+            const sectionTop = section.offsetTop;
+            const sectionHeight = section.clientHeight;
+            if (pageYOffset >= sectionTop - sectionHeight / 3) {
+              current = section.getAttribute("id");
+            }
+          });
+
+          document.querySelectorAll(".floating-nav a").forEach((navLink) => {
+            navLink.classList.remove("active");
+            if (
+              navLink.getAttribute("href") === `#${current}` ||
+              (navLink.getAttribute("href") === "#" && current === "")
+            ) {
+              navLink.classList.add("active");
+            }
+          });
+        });
+      };
+    </script>
+  </body>
+</html>
